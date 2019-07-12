@@ -1,0 +1,66 @@
+Configuration	EEPROM Memory
+STM32CubeMX 	5.2.0
+Date	07/12/2019
+MCU	STM32F411RETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB8
+I2C1	I2C	I2C1_SDA	PB9
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-ANTI_TAMP	GPIO_EXTI13	B1 [Blue PushButton]
+16	PA2	USART2_TX	USART_TX
+17	PA3	USART2_RX	USART_RX
+21	PA5	GPIO_Output	LD2 [Green Led]
+61	PB8	I2C1_SCL	
+62	PB9	I2C1_SDA	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB8
+I2C1	I2C	I2C1_SDA	PB9
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-ANTI_TAMP	GPIO_EXTI13	B1 [Blue PushButton]
+16	PA2	USART2_TX	USART_TX
+17	PA3	USART2_RX	USART_RX
+21	PA5	GPIO_Output	LD2 [Green Led]
+61	PB8	I2C1_SCL	
+62	PB9	I2C1_SDA	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : EEPROM Memory
+Project Folder : F:\STM32\EEPROM Memory
+Toolchain / IDE : TrueSTUDIO
+Firmware Package Name and Version : STM32Cube FW_F4 V1.24.1
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
