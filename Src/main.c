@@ -67,7 +67,6 @@ static void MX_I2C1_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint kek = 0;
 
 void vprint(const char *fmt, va_list argp) {
 	char string[200];
