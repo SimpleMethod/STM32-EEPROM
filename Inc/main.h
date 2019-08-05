@@ -4,7 +4,7 @@
   * @file           : main.h
   * @brief          : Header for main.c file.
   *                   This file contains the common defines of the application.
-  ****************************************************************************** 
+  ******************************************************************************
   * @attention
   *
   *Copyright 2019 SimpleMethod
@@ -86,5 +86,3 @@ void Error_Handler(void);
 #endif
 
 #endif /* __MAIN_H */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
